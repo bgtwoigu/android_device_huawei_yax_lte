@@ -1,1 +1,1 @@
-add_lunch_combo cm_y560-userdebug
+add_lunch_combo cm_yax_lte-userdebug
