@@ -1,15 +1,17 @@
-CyanogenMod 12.1 device configuration for [Huawei Y5](http://www.modaco.com/forums/topic/376808-cyanogenmod-121/).
+Unified Device Tree For Huawei Honor 4a
+==============================================
 
-How to build:
--------------
+The Huawei Ascend Honor 4a (codenamed _"yax_lte"_)
 
-Initialize repo:
-
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-12.1
-    curl --create-dirs -L -o .repo/local_manifests/manifest_huawei_y560.xml -O -L https://raw.githubusercontent.com/legaCyMod/android_local_manifest/cm-12.1/manifest_huawei_y560.xml
-    repo sync
-
-Compile:
-
-    . build/envsetup.sh
-    brunch y560
+Basic   | Spec Sheet
+-------:|:-------------------------
+CPU     | Quad-core 1.1 GHz Cortex-A7
+CHIPSET | Qualcomm Snapdragon 210
+GPU     | Adreno 304
+Memory  | 1/2 GB RAM
+Shipped Android Version | 4.4.2
+Storage | 8 GB
+MicroSD | Upto 32 GB
+Battery | 2200 mAh
+Display | 5.65 x 2.84 x 0.33 in
+Camera  | 8 MP, 2592 х 1944 pixels
