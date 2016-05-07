@@ -9,7 +9,7 @@ CPU     | Quad-core 1.1 GHz Cortex-A7
 CHIPSET | Qualcomm Snapdragon 210
 GPU     | Adreno 304
 Memory  | 1/2 GB RAM
-Shipped Android Version | 4.4.2
+Shipped Android Version | 5.1.1
 Storage | 8 GB
 MicroSD | Upto 32 GB
 Battery | 2200 mAh
