@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PACKAGE_OVERLAYS += device/huawei/y560/overlay
+DEVICE_PACKAGE_OVERLAYS += device/huawei/yax_lte/overlay
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
