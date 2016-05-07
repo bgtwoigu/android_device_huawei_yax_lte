@@ -14,7 +14,7 @@ PRODUCT_NAME := cm_yax_lte
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := Y6
 PRODUCT_MANUFACTURER := Huawei
-PRODUCT_RELEASE_NAME := Y56
+PRODUCT_RELEASE_NAME := Yax_lte
 
 # Set build fingerprint / ID / Product Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += \
