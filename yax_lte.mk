@@ -117,6 +117,18 @@ PRODUCT_PACKAGES += \
     libQWiFiSoftApCfg \
     wcnss_service
 
+# Run adbd as root
+ADDITIONAL_DEFAULT_PROPERTIES += \
+    ro.secure=0 \
+    ro.adb.secure=0 \
+    persist.service.adb.enable=1 \
+    persist.service.debuggable=1
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.service.adb.enable=1 \
+    persist.service.debuggable=1 \
+    persist.sys.usb.config=mtp,adb
+
 # Ramdisk
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,device/huawei/yax_lte/ramdisk,root)
