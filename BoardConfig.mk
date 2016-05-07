@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/huawei/y560
+LOCAL_PATH := device/huawei/yax_lte
 
 # Platform
 TARGET_NO_BOOTLOADER := true
@@ -120,7 +120,7 @@ COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
 include device/qcom/sepolicy/sepolicy.mk
 
 BOARD_SEPOLICY_DIRS += \
-    device/huawei/y560/sepolicy
+    device/huawei/yax_lte/sepolicy
 
 BOARD_SEPOLICY_UNION += \
     file_contexts \
