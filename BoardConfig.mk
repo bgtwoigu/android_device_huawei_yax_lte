@@ -43,6 +43,9 @@ BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 TARGET_KERNEL_CONFIG := cm_yax_lte_defconfig
 TARGET_KERNEL_SOURCE := kernel/huawei/msm8909
 
+# Asserts
+TARGET_OTA_ASSERT_DEVICE := y6,yax_lte,hwSCL-Q,SCL,SCL-L03
+
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-smd"
 
