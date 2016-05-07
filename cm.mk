@@ -1,6 +1,6 @@
 # Boot animation
-TARGET_SCREEN_WIDTH := 480
-TARGET_SCREEN_HEIGHT := 854
+TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_HEIGHT := 1280
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
@@ -18,7 +18,7 @@ PRODUCT_RELEASE_NAME := Yax_lte
 
 # Set build fingerprint / ID / Product Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="msm8909-user 5.1.1 HUAWEIYAX_LTE-L01 C577B040 release-keys" \
-    BUILD_FINGERPRINT="HUAWEI/Y560-L01/HWYAX_LTE-L:5.1.1/HUAWEIY560-L01/C577B040:user/release-keys"
+    PRIVATE_BUILD_DESC="msm8909-user 5.1.1 HuaweiSCL-L03 C40B130 release-keys" \
+    BUILD_FINGERPRINT="Huawei/SCL-L03/hwSCL-Q:5.1.1/HuaweiSCL-L03/C40B130:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-huawei
