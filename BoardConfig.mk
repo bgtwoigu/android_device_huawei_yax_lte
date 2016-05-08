@@ -13,9 +13,6 @@ TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := cortex-a7
 
-TARGET_GLOBAL_CFLAGS += -mtune=cortex-a7 -mfpu=neon-vfpv4 -mfloat-abi=softfp
-TARGET_GLOBAL_CPPFLAGS += -mtune=cortex-a7 -mfpu=neon-vfpv4 -mfloat-abi=softfp
-
 TARGET_RECOVERY_FSTAB := device/huawei/yax_lte/twrp.fstab
 
 # Kernel
@@ -37,12 +34,12 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_HAS_LARGE_FILESYSTEM := true
 
 # TWRP
+TW_THEME := portrait_hdpi
 DEVICE_RESOLUTION := 720x1280
-TW_TARGET_USES_QCOM_BSP := true
+TW_EXCLUDE_SUPERSU := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TW_INCLUDE_CRYPTO := true
-TW_SCREEN_BLANK_ON_BOOT := true
+TW_INCLUDE_NTFS_3G := true
 TW_IGNORE_MAJOR_AXIS_0 := true
-BOARD_SUPPRESS_EMMC_WIPE := true
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
